@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Kicks Envy</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                Kicks Envy
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav__link  active-link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#premium" class="nav__link">Premium</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__btns">
+                <button class="nav__shop">
+                    <img class="nav_cart" src="assets/img/cart.png" alt="">
+                </button>
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid"></div>
+        </section>
+
+        <!--==================== FEATURED ====================-->
+        <section class="featured_section_container" id="featured">
+            <h2 class="section_title">Featured</h2>
+            <div class="filter-sort container">
+                <select name="filter" id="filter" class="filter">
+                    <option value="" selected disabled hidden>Filter Brand</option>
+                    <option value="Skechers">Sketchers</option>
+                    <option value="Nike">Nike</option>
+                    <option value="Adidas">Adidas</option>
+                </select>
+                <select name="Sort" id="sort" class="sort">
+                    <option value="" selected disabled hidden>Sort</option>
+                    <option value="H_L">Price-High to Low</option>
+                    <option value="L_H">Price-Low to High</option>
+                    <option value="discount">Discount</option>
+                </select>
+            </div>
+            <div class="featured__container"></div>
+            <div class="paginationButtons">
+                <button class="prev">Prev</button>
+                <button class="next">Next</button>
+            </div>
+        </section>
+
+
+        <!--==================== premium ====================-->
+        <section class="premium section container" id="premium">
+            <h2 class="section_title">premium Arrivals</h2>
+            <div class="premium_container"></div>
+        </section>
+
+        <!--==================== newsLETTER ====================-->
+        <section class="newsletter section container">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">Subscribe Our <br> newsletter</h2>
+                    <p class="newsletter__description">
+                        Don't miss out on your discounts. Subscribe to our email
+                        newsletter to get the best offers, discounts, coupons,
+                        gifts and much more.
+                    </p>
+                </div>
+
+                <form action="" class="newsletter__subscribe">
+                    <input type="email" placeholder="Enter your email" class="newsletter__input">
+                    <button class="button">
+                        SUBSCRIBE
+                    </button>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- ==========================CART=========================== -->
+        <div id="card-tooltip" class="hidden">
+            <div class="card_container">
+                <div class="card_head">
+                    <h1>Shopping Cart</h1>
+                </div>
+
+                <div class="listCard_container" id="listCard_container">
+
+                    <div class="shopping-cart">
+                        <div class="cart-data">
+
+                        </div>
+                        <div class="cart-total">
+                            Total: 0.00
+                        </div>
+                        <button class="checkout-button">Checkout</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- =============== MAIN JS =============== -->
+    <script type="module" src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/pagination.js"></script>
+</body>
+
+</html>

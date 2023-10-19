@@ -1,0 +1,101 @@
+[
+    {
+      "productId": 1,
+      "brand":"Skechers",
+      "tag": 20,
+      "imgSrc": "assets/img/shoe-13.jpg",
+      "title": "Skechers Arch Fit - Citi Drive",
+      "originalPrice": 130,
+      "discountedPrice": 105,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 2,
+      "brand":"Skechers",
+      "tag": 30,
+      "imgSrc": "assets/img/shoe-11.jpg",
+      "title": "Skechers GO RUN Trail Altitude",
+      "originalPrice": 165,
+      "discountedPrice": 115,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 3,
+      "brand":"Skechers",
+      "tag": 20,
+      "imgSrc": "assets/img/shoe-15.jpg",
+      "title": "Skechers Flywalk - Ruskin",
+      "originalPrice": 135,
+      "discountedPrice": 108,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 4,
+      "brand":"Adidas",
+      "tag": 30,
+      "imgSrc": "assets/img/shoe-14.avif",
+      "title": "Adidas Pureboost-22",
+      "originalPrice": 130,
+      "discountedPrice": 91,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 5,
+      "brand":"Adidas",
+      "tag": 30,
+      "imgSrc": "assets/img/shoe-8.avif",
+      "title": "Adidas Continental 80-White",
+      "originalPrice": 110,
+      "discountedPrice": 77,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 6,
+      "brand":"Adidas",
+      "tag": 25,
+      "imgSrc": "assets/img/shoe-9.avif",
+      "title": "Adidas Continental 80-Black",
+      "originalPrice": 110,
+      "discountedPrice": 82.5,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 7,
+      "brand":"Nike",
+      "tag": 30,
+      "imgSrc": "assets/img/nike-1.jpg",
+      "title": "Nike Air Zoom Fire",
+      "originalPrice": 130,
+      "discountedPrice": 90.97,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 8,
+      "brand":"Nike",
+      "tag": 50,
+      "imgSrc": "assets/img/nike-2.jpg",
+      "title": "Nike Air Max Scorpion Flyknit",
+      "originalPrice": 250,
+      "discountedPrice": 124.99,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    },
+    {
+      "productId": 9,
+      "brand":"Nike",
+      "tag": 30,
+      "imgSrc": "assets/img/nike-3.jpg",
+      "title": "Nike Air Force 1 Impact NN",
+      "originalPrice": 89.99,
+      "discountedPrice": 62.97,
+      "currency": "€",
+      "sizes": [6, 7, 8, 9, 10]
+    }
+]
