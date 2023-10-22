@@ -142,19 +142,6 @@ a {
   color: rgba(38, 38, 38);
 }
 
-@media screen and (max-width: 767px) {
-  .nav_menu {
-    position: fixed;
-    background-color: rgba(252, 252, 252);
-    top: 0;
-    right: -100%;
-    width: 100%;
-    height: 100%;
-    padding: 96px 32px 56px;
-    transition: 0.3s;
-  }
-}
-
 .nav__list {
   display: flex;
   flex-direction: column;
@@ -171,7 +158,7 @@ a {
 }
 
 .nav__link:hover {
-  color: rgba(183, 178, 174, 0.796);
+  color: rgba(252, 250, 249, 0.407);
 }
 
 .nav__shop {
@@ -189,10 +176,6 @@ a {
   background-color: rgba(137, 135, 133, 0.796);
   box-shadow: 0 12px 24px rgba(131, 127, 124, 0.796);
 }
-
-/* Active link .active-link {
-  color: rgba(250, 250, 250, 0.796);
-} */
 
 /* ============================================cart================================= */
 #card-tooltip {
@@ -378,11 +361,6 @@ button {
   border-radius: 5px;
   box-shadow: 0 12px 24px rgba(131, 127, 124, 0.796);
 }
-.select-size {
-  background-color: rgba(183, 178, 174, 0.796);
-  border-radius: 5px;
-  font-family: Roboto;
-}
 
 /* =================================Filter and Sort================================= */
 .filter-sort {
@@ -511,11 +489,14 @@ button {
 }
 
 .select-size {
-  width: 50px;
+  width: 3rem;
   display: block;
   margin: 0 auto;
   margin-top: 4px;
   height: 25px;
+  background-color: rgba(183, 178, 174, 0.796);
+  border-radius: 5px;
+  font-family: Roboto;
 }
 .featured__data {
   display: flex;
@@ -577,14 +558,12 @@ button {
   display: block;
   color: rgba(183, 178, 174, 0.796);
   transition: 0.3s;
+  text-decoration: line-through;
 }
 .featured__price {
   display: block;
   color: rgba(43, 43, 43);
   transition: 0.3s;
-}
-.discounts {
-  text-decoration: line-through;
 }
 
 .featured__button {
@@ -726,7 +705,7 @@ button {
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   background: hsl(0, 0%, 74%);
 }
 
@@ -764,9 +743,14 @@ button {
 }
 
 @media screen and (min-width: 320px) {
-  .scrollable-container {
-    overflow: auto; /* or overflow: scroll; */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+  .paginationButtons {
+    width: 350px;
+  }
+  .select-size {
+    width: 4rem;
+  }
+  .filter-sort {
+    justify-content: space-between;
   }
   .home__img-bg {
     width: 300px;
@@ -828,6 +812,21 @@ button {
     justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
+  }
+  .paginationButtons {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav__link {
+    font-size: 10px;
+  }
+  .nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    flex-direction: row;
+    background-color: inherit;
   }
 }
 
@@ -896,6 +895,9 @@ button {
   .newsletter__input {
     width: 100%;
   }
+  .paginationButtons {
+    width: 750px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -941,9 +943,6 @@ button {
   }
   #card-tooltip.active {
     top: 80px;
-  }
-  .scrollup {
-    right: 3rem;
   }
 
   .filter-sort {
